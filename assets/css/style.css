@@ -1,0 +1,125 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: #F0EBE3;
+}
+
+.banner{
+    box-sizing: border-box;
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 12em;
+    border-radius: 10px;
+}
+h1{
+    font-style: italic;
+    font-size: 4em;
+    color: #7D9D9C;
+    padding: 10px 0px 0px 30px;
+    margin: 0;
+}
+.subtitulo{
+    font-size: 2em;
+    padding: 0px 30px 0px 30px;
+    margin-top: 10px;
+    text-align: right;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #7D9D9C;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px black;
+}
+.nav-link{
+    background-color: #576F72;
+    padding: 5px 50px 5px 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+a{
+    text-decoration: none;
+    color: #F0EBE3;
+}
+a:hover{
+    color: black;
+}
+.container{
+    display: flex;
+
+}
+.container2{
+    display: flex;
+    width: 1000px;
+
+}
+h2{
+    text-align: left;
+}
+.mision{
+    
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+aside{
+    text-align: justify;
+    width: 15%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.encuesta{
+    color:black;
+    font-weight: 700;
+    
+}
+.encuesta:hover{
+    color: purple;
+    border-style: solid;
+}
+.imgM{
+    margin: 50px 100px 50px 100px;
+    box-shadow: 5px 5px 5px black;
+    width: 400px;
+}
+.data{
+    padding-top: 10px;
+    text-align: justify;
+}
+.titulo2{
+    margin-top: 50px;
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+footer{
+    background-color: #576F72;
+    color: #F0EBE3;
+    border-radius: 10px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloF{
+    text-align: center;
+    padding-top: 16px;
+}
+.imgC{
+    width: 75px;
+    height: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 2em;
+}
+.info{
+    display: block;
+    text-align: center;
+}
